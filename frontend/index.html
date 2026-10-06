@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Магазин</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Магазин</h1>
+      <p>Данные загружаются с API <code>http://localhost:3000/api</code></p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Товары</h2>
+        <ul id="products"></ul>
+      </section>
+
+      <section>
+        <h2>Пользователи</h2>
+        <ul id="users"></ul>
+      </section>
+    </main>
+
+    <p id="status"></p>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
